@@ -1,0 +1,22 @@
+{
+  "name": "hello-docker",
+  "version": "1.0.0",
+  "description": "Docker Hello World Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "docker",
+    "express",
+    "require"
+  ],
+  "author": "/dev/null",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
