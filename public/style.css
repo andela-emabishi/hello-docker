@@ -1,0 +1,15 @@
+body {
+  padding-top: 30vh;
+  padding-bottom: 40vh;
+}
+
+h1 {
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  color: #CC76A1
+}
+p {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  line-height: 1.5
+}
