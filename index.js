@@ -17,8 +17,8 @@ app.get('/home', (req,res) => {
 });
 
 */
-app.use('/static', express.static(path.join(__dirname, 'public'))); // eslint-disable-line
-// Html file served at http://localhost:4000/static/
+app.use('/', express.static(path.join(__dirname, 'public'))); // eslint-disable-line
+// Html file served at http://localhost:4000/
 
 app.listen(PORT, () => {
   console.log('Server listening on port ', PORT);
